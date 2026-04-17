@@ -1,38 +1,56 @@
-# 🍹 Cocktail Website with React & Redux Toolkit
+# 🍹 Cocktail App — React + Redux Toolkit
 
-A modern and fully functional **CRUD web application** for browsing, filtering, and managing cocktail recipes. This project is built using **React** and **Redux Toolkit**, implementing centralized state management, reusable components, and real-time data interactions.
+A React CRUD application for browsing and managing cocktail recipes, powered by the CocktailDB API and Redux Toolkit for state management.
 
-Designed with scalability and clean code practices in mind, this application is ideal for learning, showcasing, or extending with real-world APIs.
-
----
-
-## 📦 Tech Stack
-
-- **React** – Component-based frontend library
-- **Redux Toolkit** – Simplified global state management
-- **React Router** – Page navigation
-- **JavaScript (ES6+)**
-- **HTML5 & CSS3**
+🔗 **Live Demo:** *(Coming Soon)*
+📂 **GitHub:** [github.com/myasirweb/Cocktail-Websit-With-React-ReduxToolkit](https://github.com/myasirweb/Cocktail-Websit-With-React-ReduxToolkit)
 
 ---
 
 ## ✨ Features
 
-- Fetch and display cocktail data dynamically
-- View detailed information for each drink
-- Filter/search cocktails by name or ingredients
-- State management using Redux slices
-- Responsive and modern UI
-- Clean and modular component structure
+- Browse cocktail recipes from CocktailDB API
+- Search cocktails by name or ingredient
+- View detailed recipe — ingredients, measurements, instructions
+- Save favorites (CRUD operations)
+- Redux Toolkit for global state management
+- Fully responsive UI
+
+---
+
+## 🧰 Tech Stack
+
+| Layer | Technology |
+|-------|-----------|
+| **Frontend** | React.js |
+| **State Management** | Redux Toolkit |
+| **API** | TheCocktailDB API |
+| **Styling** | CSS3 |
+| **HTTP Client** | Axios |
 
 ---
 
 ## 🚀 Getting Started
 
-To run this project locally:
-
-### 1. Clone the Repository
-
 ```bash
-[git clone https://github.com/your-username/Cocktail-Website-With-React-ReduxToolkit.git](https://github.com/myasirweb/Cocktail-Websit-With-React-ReduxToolkit-.git)
-cd Cocktail-Website-With-React-ReduxToolkit
+git clone https://github.com/myasirweb/Cocktail-Websit-With-React-ReduxToolkit.git
+cd Cocktail-Websit-With-React-ReduxToolkit
+npm install
+npm start
+```
+
+Open [http://localhost:3000](http://localhost:3000)
+
+
+## 👨‍💻 Author
+
+**Muhammad Yasir** — Frontend Engineer
+🌐 [yasir-portfolio-nextjs.vercel.app](https://yasir-portfolio-nextjs.vercel.app)
+💼 [linkedin.com/in/yasirweb](https://linkedin.com/in/yasirweb)
+📧 muhammad.yasir1368@gmail.com
+
+---
+
+## 📄 License
+
+MIT License
